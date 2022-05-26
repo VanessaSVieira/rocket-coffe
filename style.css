@@ -1,0 +1,75 @@
+/* ----------- GERAL ---------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100vh;
+}
+
+body {
+    background-image: url(./Images/Background.png);
+    background-position: center center fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    font-family: 'Manrope';
+    font-size: 1.6rem;
+    text-align: center;
+    overflow: overlay;
+}
+
+ul {
+    list-style: none;
+}
+
+
+/* ----------- NAVIGATION ---------- */
+.header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    margin-top: 5rem;
+}
+
+.menu ul {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 3.2rem;
+
+
+    color: white;
+
+    font-weight: 500;
+    font-size: 1.4rem;
+    text-decoration: none;
+}
+
+button {
+    font-weight: 800;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+
+    color: white;
+
+    border: solid 1px hsl(258, 73%, 62%);
+    border-radius: 1rem;
+
+    padding-block: 1.1rem;
+    padding-inline: 2.5rem;
+
+    background: none;
+}
+
+.container img {
+    margin-top: 5.6rem;
+    margin-bottom: 4rem;
+}
+
+.coffe img {
+}
