@@ -127,7 +127,7 @@ button:hover {
         right: 0px;
         width: 100%;
         top: 8rem;
-        height: calc(100vh - 8rem);
+        height: 100vh;
 
         z-index: 10000;
 
@@ -191,11 +191,20 @@ button:hover {
 }
     
 /*--------------MENU EXPANDED ---------------*/
+
 #navigation.active .menu #list-menu  {
     display: block;
-    padding: 1rem 0;
-    margin: 0 1rem;
-    border-bottom: 1px solid hsla(240, 6%, 17%, 1);
+    background-color: black;
+}
+
+#navigation.active .close-menu {
+    display: flex;
+    border: none;
+
+}
+
+#navigation.active .botao-menu {
+    display: none;
 }
 
 .menu #list-menu {
